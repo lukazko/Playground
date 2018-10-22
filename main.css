@@ -19,7 +19,7 @@ html, body {
 
 .wrapper {
     position: relative;
-    padding-bottom: 150px;
+    padding-bottom: 140px;
     min-height: 100vh;
     overflow: hidden;
     display: block;
@@ -27,11 +27,14 @@ html, body {
 
 main {
     background-color: #edeeef;
+    padding-bottom: 30px;
 }
 
 header {
     float: left;
-    color: white;   
+    color: white;
+    padding-top: 15px;
+    padding-left: 20px;   
 }
 
 .container-top {
@@ -42,11 +45,14 @@ header {
 
 nav {
     float: right;  
-    font-size: 20px;  
+    font-size: 20px;
+    padding-top: 35px;
+    padding-right: 15px;  
 }
 
 .nav-item-current {
-    border-bottom: white 2px solid;    
+    border-bottom: white 2px solid;
+    border-top: white 2px solid;     
 }
 
 a {
@@ -56,12 +62,14 @@ a {
 nav a {
     padding: 10px;
     padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 nav a:hover {
-    color: white;
+    color: rgb(18, 103, 182);
     /*text-decoration: underline;*/
-    border-bottom: white 2px solid;
+    border-bottom: rgb(18, 103, 182) 2px solid;
+    border-top: rgb(18, 103, 182) 2px solid;
 }
 
 footer {
@@ -89,15 +97,24 @@ main:after {
 
 .title {
     font-size: 50px;
-    padding: 15px;
+    /*padding-left: 15px;*/
 }
 
-.motto {
-    padding: 15px;
-    font-style: italic;   
+.title:hover {
+    color: rgb(18, 103, 182);
 }
 
 .copyright {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.welcome {
+    text-align: center;
+    width: 70%;
+    margin:0 auto;
+}
+
+.welcome h1 {
+    font-size: 70px;
 }
